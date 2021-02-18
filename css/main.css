@@ -45,6 +45,10 @@ h6 {
     width: 40%;
 }
 
+.w-33 {
+    width: 33%;
+}
+
 .btn {
     display:inline-block;
     min-width: 100px;
@@ -139,4 +143,23 @@ h6 {
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 20px;
+}
+
+/*SECTION THREE*/
+
+.companies {
+    height: 400px;
+    background: #0d325a;
+}
+
+.companies .companies-text h2 {
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font-size: 33px;
+    color: #fff;
+}
+
+.companies .companies-text p {
+    font-size: 20px;
+    padding-bottom: 40px;
 }
