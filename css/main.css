@@ -1,0 +1,113 @@
+/*GENERAL*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color:#8b8b8b;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+    font-weight: 500;
+}
+
+/*UTILITIES*/
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.float-left {
+    float: left;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.btn {
+    display:inline-block;
+    min-width: 100px;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.btn.btn-grn {
+    background: #7cbb01;
+    border: 1px solid transparent;
+}
+
+/*SECTION ONE*/
+
+.agreement {
+    margin-top: 20px;
+    height: 500px;
+    background-image: url('..//img/shakehands.svg');
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: 25% 25%;
+}
+.agreement .container {
+    position: relative;
+    height: 100%;
+}
+
+.agreement-text {
+    position: absolute;
+    top: 15%;
+    right: 0;
+}
+
+.agreement-text h2 {
+    color: #000;
+}
+
+.agreement-text p {
+    margin-top: 40px;
+    font-size: 27px;
+    margin-bottom: 30px;
+}
+
+.agreement-text span {
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    right: 15%;
+    font-size: 20px;
+    color: #a8b6c2;
+}
+
+.agreement-text a {
+    position: absolute;
+    right: 60%;
+    text-align: left;
+}
+
+hr {
+    background:#8b8b8b;
+}
