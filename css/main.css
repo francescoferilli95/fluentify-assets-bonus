@@ -273,3 +273,56 @@ h6 {
 .faq-text h5 {
     font-size: 15px;
 }
+
+/*FOOTER SITE*/
+
+.main-footer {
+    height: 400px;
+    background: #17416b;
+}
+
+.menu-block {
+    list-style: none;
+}
+
+.main-footer .container {
+    position: relative;
+    height: 100%;
+}
+
+.footer-text-left {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.footer-text-right {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.main-footer h3 {
+    line-height:40px;
+    color: #fff;
+}
+
+.main-footer .menu-block a {
+    line-height: 40px;
+    text-decoration: none;
+    color: #8b8b8b;
+}
+
+.main-footer .menu-block a:hover {
+    color: #ebac30;
+}
+
+.main-footer .footer-text-right {
+    text-align: right;
+}
+
+.main-footer .footer-text-right h3 {
+        line-height: 80px;
+}
