@@ -161,5 +161,80 @@ h6 {
 
 .companies .companies-text p {
     font-size: 20px;
-    padding-bottom: 40px;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+/*SECTION FOUR*/
+
+.course-left {
+    width: 30%;
+}
+
+.course-center {
+    width: 30%;
+    margin: 0 4.5%;
+}
+
+.course-right {
+    width: 30%;
+}
+
+.course-img {
+    display:inline-block;
+}
+
+.course-img img {
+    width: 40%;
+    height: 40%;
+    background-size: contain;
+}
+
+.course .container h2 {
+    margin-top: 100px;
+    margin-bottom: 80px;
+    text-align: center;
+    font-size: 30px;
+    color: #000;
+}
+
+.course h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.course p {
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+.course .course-left p {
+    border-bottom: 10px solid #aaceee;
+}
+
+.course .course-center p {
+    border-bottom: 10px solid #ebac30;
+}
+
+.course .course-right p {
+    border-bottom: 10px solid #7cbb01;
+}
+
+.course .course-left a {
+    display: inline-block;
+    padding-top: 20px;
+    color: #aaceee;
+}
+
+.course .course-center a {
+    display: inline-block;
+    padding-top: 20px;
+    color: #ebac30;
+}
+
+.course .course-right a {
+    display: inline-block;
+    padding-top: 20px;
+    color: #7cbb01;
 }
