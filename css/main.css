@@ -166,6 +166,9 @@ h6 {
 }
 
 /*SECTION FOUR*/
+.course {
+    margin-bottom: 80px;
+}
 
 .course-left {
     width: 30%;
@@ -237,4 +240,36 @@ h6 {
     display: inline-block;
     padding-top: 20px;
     color: #7cbb01;
+}
+
+/*SECTION FIVE*/
+
+.faq {
+    height: 90px;
+    background: #0d325a;
+}
+
+.faq .container {
+    position: relative;
+    height: 100%;
+}
+
+.faq-text {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.faq-text h2 {
+    color: #fff;
+    line-height: 40px;
+}
+
+.faq-text span {
+    color: #b5922e;
+}
+
+.faq-text h5 {
+    font-size: 15px;
 }
