@@ -108,6 +108,35 @@ h6 {
     text-align: left;
 }
 
-hr {
-    background:#8b8b8b;
+/*SECTION TWO*/
+
+.avaiability .avaiability-img img {
+    margin-top: 100px;
+    display: inline-block;
+    max-height: 300px;
+    background-size: contain;
+    text-align: center;
+}
+
+.avaiability .avaiability-text {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.avaiability-text h2 {
+    font-size: 30px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.avaiability-text span {
+    color: #7cbb01;
+}
+
+.avaiability-text p {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
 }
